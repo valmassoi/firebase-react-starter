@@ -1,0 +1,22 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "react"
+  ],
+  "parser": "babel-eslint",
+  "globals": {
+    "document": true,
+    "window": true
+  },
+  "rules": {
+    "arrow-body-style": 0,
+    "import/prefer-default-export": 0,
+    "no-unused-vars": 1,
+    "semi": [2, "never"],
+    "react/destructuring-assignment": 0,
+    "react/no-unused-prop-types": 1,
+    "react/no-unused-state": 1,
+    "react/prefer-stateless-function": [0, { "ignorePureComponents": true }],
+    "react/sort-prop-types": [1, { "requiredFirst": true }]
+  }
+}
