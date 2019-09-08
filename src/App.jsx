@@ -4,8 +4,6 @@ import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
-import './App.css'
-
 import { rootReducer } from './reducers/createStore'
 import Home from './components/Home/Home'
 

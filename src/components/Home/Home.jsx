@@ -1,7 +1,11 @@
 import React from 'react'
 
+import Login from '../Login/Login'
+
 const Home = () => (
-  <div>Hello World!!!</div>
+  <div className="home-wrapper">
+    <Login />
+  </div>
 )
 
 export default Home
